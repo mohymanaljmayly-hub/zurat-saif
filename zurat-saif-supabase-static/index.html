@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="ذرة سيف — ذرة ووجبات سريعة بطابع VIP">
+  <title>ذرة سيف</title>
+  <link rel="icon" href="./assets/images/logo.svg">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <a class="brand" href="#home">
+      <img id="siteLogo" src="./assets/images/logo.svg" alt="شعار ذرة سيف">
+      <span><strong id="brandAr">ذرة سيف</strong><small id="brandEn">ZURAT SAIF</small></span>
+    </a>
+    <nav id="mainNav">
+      <a href="#categories">الأقسام</a><a href="#menu">المنيو</a><a href="#location">الموقع</a>
+    </nav>
+    <a class="header-order wa-link" href="#">اطلب الآن</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i><span id="heroEyebrow">PREMIUM STREET FOOD</span></div>
+        <h1 id="heroTitle">الطعم الفخم يبدأ من هنا</h1>
+        <p id="heroText"></p>
+        <div class="hero-actions"><a class="button gold" href="#menu">استكشف المنيو</a><a class="button glass wa-link" href="#">طلب واتساب</a></div>
+        <div class="trust-row"><span>✦ تحضير سريع</span><span>✦ جودة مختارة</span><span>✦ طلب مباشر</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="gold-orbit"></div>
+        <div class="hero-frame"><img id="heroImage" src="./assets/images/hero-food.svg" alt="وجبات ذرة سيف"></div>
+        <span class="vip-chip">VIP TASTE</span>
+        <span class="fresh-chip">طازج يوميًا</span>
+      </div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <header class="section-head reveal"><div><span class="section-kicker">CHOOSE YOUR MOOD</span><h2>أقسام المنيو</h2></div><p>اختار القسم وشوف كل المنتجات الموجودة داخله.</p></header>
+      <div id="categoryCards" class="category-grid"></div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <header class="section-head reveal"><div><span class="section-kicker">THE MENU</span><h2>اختيارات تستحق التجربة</h2></div><p>كل منتج تگدر تطلبه مباشرة برسالة واتساب جاهزة.</p></header>
+      <div id="menuTabs" class="menu-tabs"></div>
+      <div id="productsGrid" class="product-grid"></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-panel reveal"><span class="section-kicker">OUR STORY</span><h2 id="aboutTitle"></h2><p id="aboutText"></p><div class="about-points"><span><b>01</b> نكهة مميزة</span><span><b>02</b> تقديم راقٍ</span><span><b>03</b> طلب سريع</span></div></div>
+      <div class="hours-panel reveal" id="hoursSection"><span class="section-kicker">OPENING HOURS</span><h2>أوقات العمل</h2><div id="hoursList"></div><a class="button gold wa-link" href="#">اسألنا الآن</a></div>
+    </section>
+
+    <section class="section location" id="location">
+      <div class="location-map reveal"><div class="map-grid"></div><div class="pin">📍</div><span>ذرة سيف</span></div>
+      <div class="location-copy reveal"><span class="section-kicker">FIND US</span><h2>وصلنا بسهولة</h2><p id="locationText"></p><a id="mapsLink" class="button gold" target="_blank" rel="noopener">فتح الموقع بالخريطة</a></div>
+    </section>
+
+    <section class="section qr-section" id="qrSection">
+      <div class="qr-copy reveal"><span class="section-kicker">SCAN & ORDER</span><h2>باركود يفتح الموقع مباشرة</h2><p>ينطبع على العربة، الكروت، الأكياس والمنشورات. الزبون يمسحه ويدخل للمنيو فورًا.</p></div>
+      <div class="qr-card reveal"><div class="qr-ring"><img src="" alt="QR موقع ذرة سيف"></div><strong>SCAN ME</strong><span>امسح للدخول</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img id="footerLogo" src="./assets/images/logo.svg" alt=""><span><b id="footerName">ذرة سيف</b><small id="footerTagline"></small></span></div>
+    <div class="social"><a id="instagramLink" target="_blank" rel="noopener">Instagram</a><a id="tiktokLink" target="_blank" rel="noopener">TikTok</a><a class="wa-link">WhatsApp</a></div>
+    <p>© <span id="year"></span> ذرة سيف — جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <nav class="mobile-bar"><a href="#home">الرئيسية</a><a href="#menu">المنيو</a><a href="#location">الموقع</a><a class="wa-link">واتساب</a></nav>
+  <script type="module" src="./assets/js/site.js"></script>
+</body>
+</html>
